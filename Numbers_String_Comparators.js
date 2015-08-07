@@ -10,7 +10,9 @@
 //              = 12 * 3
 //              = 36
 
-//      *JavaScript also recognizes negetive signs before a digit.
+//      *JavaScript also recognizes negative signs before a digit.
+//          Ex: (-4 + 3)
+//              = -1
 
 //      *Modulus can be considere the multiplication:
 //          Ex: 4 + ( 8 % (3 + 1 ) )
@@ -19,7 +21,7 @@
 //                  =  4
 
 // 3) *JavaScript has unique COMPARATORS that allow us to compare values.
-//       When we use these COMPARATORSit will return a BOOLEAN value (true or false)
+//       When we use these COMPARATORS it will return a BOOLEAN value (true or false)
 //        Ex: 6 > 4 (greater than)
 //              = true
 //        Ex: 9 < 5 (less than)
