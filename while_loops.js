@@ -35,7 +35,7 @@
 //      Ex:
                 var number = 1; // This means it will start at 1, and control the while loop
                 while(number <= 5){  // this is saying, As long as the number is less than or equal to 5, run the code below
-                    console.log(number); //This is is calling the variable (var number = 1) and is going to print it in the CONSOLE.
+                    console.log(number); //This is calling the variable (var number = 1) and is going to print it in the CONSOLE.
                     number++; // This peace is the KEY. We have to tell the loop to increase the number by one, otherwise, it will never become false and  will create an infinite loop. We have to take control of the loop.
                 }
 
@@ -45,7 +45,7 @@
                     3
                     4
                     5
-                //The it stops the while-loop.
+                //Then it stops the while-loop. When the while-loop hits 6, it stops and does not print it. becuase six is false.
 
 // * You might not like while-loops, but they are fantastic, because it executes code repeatedly without making extra typing
 
@@ -77,7 +77,7 @@
             "I drank .... coca -colas"
 
 //      - When do we want to while-loop to be false?
-            number <= 5 //Remeber I drank 5 coca-colas
+            number <= 5 //Remeber I drank 5 coca-colas. When the loop hit 6, I want the loop to stop.
 
 //      - Let's remember the syntax for whie-loops
             while(true){
@@ -101,7 +101,7 @@
         }
 
 //      -You must be curious of what will be printed in the console.
-//      coca-colas #            coca-colas <= 5                 loop output
+//      coca-colas #                coca-colas <= 5                             loop output
                 1                               true                                I drank 1 coca-cola
                 2                               true                                I drank 2 coca-cola
                 3                               true                                I drank 3 coca-cola
@@ -112,11 +112,13 @@
 
 // * Think about what if tomorrow I have 6 coca-colas that I can drink, or 10 or 20?
 //    - We don't want to write all this code over and over again right?
-//          -To avoid that, can simply change one number...watch me!!
+//          -To avoid that, I can simply change one number...watch me!!
 //              Ex:
-                        var coca_colas_drank = 20 //This is the number we can change, incase I drink different of coca-colas everyday.
-                        var number = 1 // It will start at 1
+                        var coca_colas_drank = 20; //This is the number I change, incase I drink different of coca-colas everyday. UFFF now i don't have to write this code every day!
+                        var number = 1; // It will start at 1
                         while( number <= coca_colas_drank){ // As long as number(1) is less than or equal than cola_colas_drank(20), execute the code.
-                            console.log("I drank " + number + "coca-colas") //This will be printed 20 times.
-                            number++ //Increment the number by one
+                            console.log("I drank " + number + "coca-colas"); //This will be printed 20 times.
+                            number++; //Increment the number by one
                         }
+
+                        //At this point you know what is going to be printed in the console.
