@@ -87,7 +87,7 @@
 //      - Let's think how we can control our while loop. YES! I want to increment the number by 1
             number++
             // if you want to increment the number by 2 or 3 or 4 or whatever simply write this
-            number + 2 //or any number you want. if you want to multiply, just change the symbol to mutiplication
+            number += 2 //or any number you want. if you want to multiply, just change the symbol to mutiplication
 
 //      - Have we think about if the while-loop will be infinite?
 //          - Do we have CONTROL of the while-loop?
