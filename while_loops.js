@@ -31,7 +31,7 @@
 
             //This code will never ever ever run.
 
-// * Let make a simple while-loop that prints 1 - 7 in ascending order
+// * Let make a simple while-loop that prints 1 - 5 in ascending order
 //      Ex:
                 var number = 1; // This means it will start at 1, and control the while loop
                 while(number <= 5){  // this is saying, As long as the number is less than or equal to 5, run the code below
