@@ -91,3 +91,28 @@
                     "I am not drinking 11 coca-colas"
                     "I am not drinking 12 coca-colas"
                                                                         // The for-loop stops here, 13 is false so it does not print the number.
+
+
+//var goals = 4;
+//var months = 12;
+//for(var game = 1; game <= months; game++){
+//    goals = goals * 2;
+//console.log("There will be " + goals + " goals after " + game + " in month(s)!");
+//}
+
+//I have to print 4 gen with 62 MW
+//the rest with 124 MW
+// var currentGen = 1;
+// var totalGen = 19;
+// var totalMW = 0;
+
+// while(currentGen <= 4){
+//   totalMW += 62;
+//  console.log("Generator #" + currentGen + " is on, adding 62 MW, for a total of " + totalMW + " MW!");
+//   currentGen++;
+// }
+
+// for(currentGen = 5; currentGen <= totalGen; currentGen++){
+//     totalMW += 124;
+//   console.log("Generator #" + currentGen + " is on, adding 124 MW, for a total of " + totalMW + " MW!");
+// }
