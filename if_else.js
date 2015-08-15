@@ -42,7 +42,6 @@
 //          Ex:
                     var coca_colas = 12;
                     var drank_colas = 5;
-                    var no_drank_colas = 7;
 
                     for( var start_colas = 1; start_colas <= coca_colas;  start_colas++){
                         if(start_colas <= drank_colas){
@@ -80,4 +79,3 @@
             }
             num--;
         }
-
