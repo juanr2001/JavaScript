@@ -85,21 +85,21 @@
 
 //          ***This is what will be executed when we run the code above
 
-                                                            loop                                            is                                          is
-            start_colas                         start_colas <= 12?                   start_colas<=5?                    start_colas == 9                            output
-                    1                                           true                                         yes(if)                                        ignored                                   "I drank 1 coca-cola"
-                    2                                           true                                         yes(if)                                        ignored                                   "I drank 2 coca-cola"
-                    3                                           true                                         yes(if)                                        ignored                                   "I drank 3 coca-cola"
-                    4                                           true                                         yes(if)                                        ignored                                   "I drank 4 coca-cola"
-                    5                                           true                                         yes(if)                                        ignored                                   "I drank 5 coca-cola"
-                    6                                           true                                         no(else)                                     ignored                                   "I did not drink 6 coca-colas"
-                    7                                           true                                         no(else)                                     ignored                                   "I did not drink 7 coca-colas"
-                    8                                           true                                         no(else)                                     ignored                                   "I did not drink 8 coca-colas"
-                    9                                           true                                         no(else if)                                    Yes                                       "I will drink coca-cola #9 later today"
-                    10                                         true                                         no(else)                                    ignored                                     "I did not drink 10 coca-colas"
-                    11                                         true                                         no(else)                                    ignored                                     "I did not drink 11 coca-colas"
-                    12                                         true                                         no(else)                                    ignored                                     "I did not drink 6 coca-colas"
-                    13                                    LOOP STOPS!                    THIS                    LINE            DOES        NOT                         GET                         EXECUTED!!!!!!!!
+                                            loop                                  is                                  is
+                start_colas             start_colas <= 12?                   start_colas<=5?                    start_colas == 9                            output
+                    1                         true                                yes(if)                           ignored                           "I drank 1 coca-cola"
+                    2                         true                                yes(if)                           ignored                           "I drank 2 coca-cola"
+                    3                         true                                yes(if)                           ignored                           "I drank 3 coca-cola"
+                    4                         true                                yes(if)                           ignored                           "I drank 4 coca-cola"
+                    5                         true                                yes(if)                           ignored                           "I drank 5 coca-cola"
+                    6                         true                                no(else)                          ignored                           "I did not drink 6 coca-colas"
+                    7                         true                                no(else)                          ignored                           "I did not drink 7 coca-colas"
+                    8                         true                                no(else)                          ignored                           "I did not drink 8 coca-colas"
+                    9                         true                                no(else if)                         Yes                             "I will drink coca-cola #9 later today"
+                    10                        true                                no(else)                          ignored                           "I did not drink 10 coca-colas"
+                    11                        true                                no(else)                          ignored                           "I did not drink 11 coca-colas"
+                    12                        true                                no(else)                          ignored                           "I did not drink 6 coca-colas"
+                    13                    LOOP STOPS!                    THIS                    LINE            DOES        NOT                         GET                         EXECUTED!!!!!!!!
 
 // * Now lets do Nested Conditionals
 //      - Let's pretend we have a coca-cola in bottle container and one coca-cola in a can container, and we have a pepsi in a can container
