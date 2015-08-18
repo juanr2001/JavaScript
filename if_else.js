@@ -54,11 +54,11 @@
             //This is what will be executed:
                                                                 //Loop                                                   Is                                                                         Execution
                    // coca_colas                   coca_colas <=12?                    start_colas <= drank_colas
-                            1                                           true                                               Yes = if                                                         "I dran 1 coca-cola"
-                            2                                           true                                               Yes = if                                                         "I dran 2 coca-cola"
-                            3                                           true                                               Yes = if                                                         "I dran 3 coca-cola"
-                            4                                           true                                               Yes = if                                                         "I dran 4 coca-cola"
-                            5                                           true                                               Yes = if                                                         "I dran 5 coca-cola"
+                            1                                           true                                               Yes = if                                                         "I drank 1 coca-cola"
+                            2                                           true                                               Yes = if                                                         "I drank 2 coca-cola"
+                            3                                           true                                               Yes = if                                                         "I drank 3 coca-cola"
+                            4                                           true                                               Yes = if                                                         "I drank 4 coca-cola"
+                            5                                           true                                               Yes = if                                                         "I drank 5 coca-cola"
                             6                                           true                                                No  = else                                                    "I did not drank 6 coca-colas!"
                             7                                           true                                                No  = else                                                    "I did not drank 7 coca-colas!"
                             8                                           true                                                No  = else                                                    "I did not drank 8 coca-colas!"
