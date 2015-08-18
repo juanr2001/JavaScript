@@ -70,12 +70,11 @@
 //              Ex:
                         var coca_colas = 12;
                         var drank_colas = 5;
-                        var no_drank_colas = 7;
 
                         for( var start_colas = 1; start_colas <= coca_colas;  start_colas++){
                             if(start_colas <= drank_colas){
                                 console.log(" I drank " +  start_colas + " coca-cola");
-                            }else if(start_colas == 9){
+                            }else if (start_colas == 9){
                                 console.log("I will drink coca-cola #9 later today");
                             } else {
                                 console.log("I did not drink " + start_colas + " coca-colas");
@@ -98,18 +97,17 @@
                     9                         true                                no(else if)                         Yes                             "I will drink coca-cola #9 later today"
                     10                        true                                no(else)                          ignored                           "I did not drink 10 coca-colas"
                     11                        true                                no(else)                          ignored                           "I did not drink 11 coca-colas"
-                    12                        true                                no(else)                          ignored                           "I did not drink 6 coca-colas"
+                    12                        true                                no(else)                          ignored                           "I did not drink 12 coca-colas"
                     13                    LOOP STOPS!                    THIS                    LINE            DOES        NOT                         GET                         EXECUTED!!!!!!!!
 
 // * Now lets do Nested Conditionals
-//      - Let's pretend we have a coca-cola in bottle container and one coca-cola in a can container, and we have a pepsi in a can container
 //          - Now let's say that we want the FORD car or DOGGE, if it's FORD truck I want red, if is a FORD car I want it green. if it's DODGE the car must be color black
             // This is how you do nested conditionals
 //                Ex
                         if(ford){
                             if (truck){
                                 red
-                            }else{       // here we don't need to put car becuse it already knows it's a car
+                            }else{       // here we don't need to put car becuse it already knows it's a car, not a truck
                                 green
                             }
                         }else{          //here we don't need to put dodge, becuase it already knows that you mean dodge.
@@ -117,13 +115,13 @@
                         }
 
 
-// * Back to the example of coca-colas, Let's pretend I want to let me everyone know when my coca-colas are gone, or if I have 12 coca-colas in the cooler, or if I still have some in the cooler.
+// * Back to the example of coca-colas, Let's pretend I want to let me everyone know when my coca-colas are gone, or if I have 12 coca-colas in the cooler, or if I still have a specific coca-cola in the cooler.
 //                  Ex:
                             if(any coca-colas){
                                 if(12 coca-colas){
                                     you have 12 coca colas in the cooler
                                 }else{
-                                    you have there 7 can left in the cooler
+                                    you have coca-cola #10 in the cooler
                                 }
 
                             }else{
@@ -136,8 +134,8 @@
                         var drank_colas = 5;
 
 
-                            if(my_colas > 0){
-                                if( my_colas == 12){
+                            if(drank_colas > 0){
+                                if( drank_colas == coca_colas){
                                     console.log("I have 12 coca-colas in the cooler");
                                 }else{
                                     for( var start_colas = 1; start_colas <= coca_colas;  start_colas++){
