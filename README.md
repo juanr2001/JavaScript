@@ -3,7 +3,7 @@
 ####These Repository is intended to be educational for everyone who would like to learn Javascript.
 (More lessons will be posted everyday, if possible.)
 
-#####I am using the same example with coca-calas throughout the files so it can be easy to explain and for you to undestand.
+#####"I am using the same example with coca-calas throughout the files so it can be easy to explain and for you to undestand."
 
 #####javascript_in_html.js
 In this file you will learn how to add javascript in your html file. Also, learn the rules to excute code in the console and the proper way to write JavaScript code.
