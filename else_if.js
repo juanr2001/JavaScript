@@ -149,6 +149,7 @@
                                     }
                             }else{
                                 console.log("All my coca-colas are gone!");
+                                console.log("All my coca-colas are gone!");
                             }
 
 //making changesdasdsdasdas
