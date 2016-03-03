@@ -153,3 +153,42 @@
                             }
 
 //making changesdasdsdasdas
+
+
+  resources.help_content = cred_help_content;
+      resources.create_account_terms_and_conditions = "<p>Termos e Condiçoes</p>"
+
+      //Changed Icons and bottom text.
+      $('#statementViewEnabled img').attr('src', 'images/lim_icons/extrato.partners.on.callc.png');
+      $('#statementViewEnabled label').css("color: #CCCCCC");
+      $('#balanceViewEnabled img').attr('src', 'images/lim_icons/limite.partners.on.callc.png');
+      $('#balanceViewEnabled label').css("color: #CCCCCC");
+      $('#codeViewEnabled img').attr('src', 'images/lim_icons/paycode.partners.on.callc.png');
+      $('#codeViewEnabled label').css("color: #CCCCCC");
+      $('#ecomViewEnabled img').attr('src', 'images/lim_icons/ecom.partners.on.callc.png');
+      $('#ecomViewEnabled label').css("color: #CCCCCC");
+      $('#historyViewEnabled img').attr('src', 'images/lim_icons/history.partners.on.callc.png');
+      $('#historyViewEnabled label').css("color: #CCCCCC");
+
+      // Current Balance new translation
+      resources.statement_current_bal = "Total da fatura: R$"
+      var cred_current_bal = resources.statement_current_bal;
+      $(".openStatementHeader").children(".statementItemLabel").text(cred_current_bal);
+
+      // Button New Translation
+      resources.statement_view_button = "Fatura Detalhada";
+      var cred_viewButton= resources.statement_view_button
+      $(".statementButton p").text(cred_viewButton);
+
+      // New Button Color to Dark Gray
+      $('.statementButton p').css('background-color','#CCCCCC').hover(function () {
+        $(this).css('background-color','#F5F5FD');
+        $('.statementButton p').on('mouseout', function () {
+            $('.statementButton p').css('background-color','#CCCCCC');
+          });
+      });
+
+      // Interest details
+      resources.statement_detail_interest_header = "Taxas Mensais";
+      var cred_detailStatement = resources.statement_detail_interest_header;
+      $(".statementInterestSubheader").text(cred_detailStatement);
