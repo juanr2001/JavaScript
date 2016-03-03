@@ -206,3 +206,83 @@
 //              Since is Saturdat,  it out puts that 'I drank 2 coca-cola', because both values are true!
                     }else if( start_colas == 2 && todayDay == 'Saturday'){
                     console.log("I drank 2 coca-cala")
+
+
+
+//Exercises I did after the concept was learned.
+
+var numSheep = 4;
+var monthsToPrint = 12;
+var percent = .75;
+var half = .50;
+
+for (var monthNumber = 1; monthNumber <= monthsToPrint; monthNumber++) {
+  if(monthNumber % 4 == 0){
+    var reduction = numSheep * percent;
+        console.log("Removing " + reduction + " sheep from the population.");
+    numSheep -= reduction;
+  }else if( numSheep > 10000){
+    var reduction = numSheep * half;
+        console.log("Removing " + reduction + " sheep from the population.");
+    numSheep -= reduction;
+  }
+    numSheep *= 4;
+  console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
+}
+
+There will be 16 sheep after 1 month(s)!
+There will be 64 sheep after 2 month(s)!
+There will be 256 sheep after 3 month(s)!
+Removing 192 sheep from the population.
+There will be 256 sheep after 4 month(s)!
+There will be 1024 sheep after 5 month(s)!
+There will be 4096 sheep after 6 month(s)!
+There will be 16384 sheep after 7 month(s)!
+Removing 12288 sheep from the population.
+There will be 16384 sheep after 8 month(s)!
+Removing 8192 sheep from the population.
+There will be 32768 sheep after 9 month(s)!
+Removing 16384 sheep from the population.
+There will be 65536 sheep after 10 month(s)!
+Removing 32768 sheep from the population.
+There will be 131072 sheep after 11 month(s)!
+Removing 98304 sheep from the population.
+There will be 131072 sheep after 12 month(s)!
+
+
+
+var totalGen = 19;
+var totalMW = 0;
+
+for( var gen = 1; gen <= totalGen ; gen++){
+    if(gen % 2 == 0 && gen <= 4){
+        totalMW += 62;
+        console.log("Generator #" + gen + " is on, adding 62 MW, for a total of " + totalMW + " MW!");
+
+    }else if(gen % 2 == 0 && gen >= 5){
+      totalMW += 124;
+      console.log("Generator #" + gen + " is on, adding 124 MW, for a total of " + totalMW + " MW!");
+    }else{
+      console.log("Generator #" + gen + " is off.");
+    }
+}
+
+Generator #1 is off.
+Generator #2 is on, adding 62 MW, for a total of 62 MW!
+Generator #3 is off.
+Generator #4 is on, adding 62 MW, for a total of 124 MW!
+Generator #5 is off.
+Generator #6 is on, adding 124 MW, for a total of 248 MW!
+Generator #7 is off.
+Generator #8 is on, adding 124 MW, for a total of 372 MW!
+Generator #9 is off.
+Generator #10 is on, adding 124 MW, for a total of 496 MW!
+Generator #11 is off.
+Generator #12 is on, adding 124 MW, for a total of 620 MW!
+Generator #13 is off.
+Generator #14 is on, adding 124 MW, for a total of 744 MW!
+Generator #15 is off.
+Generator #16 is on, adding 124 MW, for a total of 868 MW!
+Generator #17 is off.
+Generator #18 is on, adding 124 MW, for a total of 992 MW!
+Generator #19 is off.

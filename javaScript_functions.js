@@ -109,7 +109,36 @@
         //if the name is not confirm, then it jumps back to line 104!!
     }
 
+#Exercises
+
+var parkIsOpen = false;
+
+if (parkIsOpen) {
+  var parkIsOpen = alert("Welcome to the Badlands National Park! Try to enjoy your stay.");
+    parkIsOpen = true
+} else {
+  var parkIsOpen = alert("Sorry, the Badlands are particularly bad today. We're closed!");
+}
 
 
+// Just to store the name on a variable
+var userAge = prompt("What's your age, user?");
 
+// Enter age and confirm it
 
+var userAge = prompt("What's your age, user?");
+var ageIsCorrect = confirm("You enter " + userAge + ". " + "Is this correct?");
+
+//Loop exercise
+
+var userAge = prompt("What's your age, user?");
+var ageIsCorrect = false;
+
+while(ageIsCorrect == false){
+  userAge = prompt("What's your age, user?");
+  if(confirm("You entered "+ userAge + ". "+ "Is this correct?")){
+   var ageIsCorrect = true
+   }else{
+     var userAge = prompt("What's your age, user?");
+   }
+}
