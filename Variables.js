@@ -7,6 +7,7 @@
 // * In JavaScript we store data in " var ". " var " is the variable keyword; we give a name to  " var "; lastly, we set it equal (assigment operator( = ) ) with a value.
 //      Ex: var juanDeveloper = 1
 
+// add new line
 // * Now when we call juanDeveloper, it returns 1
 //      Ex: juanDeveloper
 //            = 1
