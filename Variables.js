@@ -1,7 +1,7 @@
 // JavaScript Notes
 
 //                                 ***  Storing Data in Variables ****
-
+adsd
 // * Just like in Ruby, Java, etc., we can store data in variables in JavaScript.
 
 // * In JavaScript we store data in " var ". " var " is the variable keyword; we give a name to  " var "; lastly, we set it equal (assigment operator( = ) ) with a value.
