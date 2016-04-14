@@ -8,7 +8,7 @@ adsd
 //      Ex: var juanDeveloper = 1
 
 // add new line
-// * Now when we call juanDeveloper, it returns 1
+// * Now when we call juanDeveloper, it returns asd1
 //      Ex: juanDeveloper
 //            = 1
 
